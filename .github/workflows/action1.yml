@@ -13,7 +13,7 @@ jobs:
             - name: Install Dependencies
               run: npm ci
             - name: run Lint
-              run: run lint
+              run: npm lint
     test:
         needs: lint
         runs-on: ubuntu-latest
